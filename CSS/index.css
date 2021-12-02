@@ -1,10 +1,27 @@
 /* general styles */
 body {
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 375px;
+    
+    width: 375px;
+    height: 812px;
     font-family: sans-serif;
-    background-color: #EFF3F4;  
+    background-color: #EFF3F4; 
+    border:solid 1px pink; 
+}
+.heroContainer {
+    width: 375px;
+}
+.heroImage {
+    width: 100%;
+}
+.centeredBodyCopy {
+    text-align: center;
+    font-weight: 100;
+    color: #103252;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 a {
     text-decoration: none;
@@ -12,7 +29,7 @@ a {
  a:visited {
     color: #EFF3F4;
  }
- 
+
  h2 {
      color: #103252;
      font-weight: 100;
@@ -20,12 +37,23 @@ a {
      margin-top: 0px;
      Margin-bottom: 10px;
  }
+ h3 {
+    color: #103252;
+    font-weight: 100;
+    font-size: 26px;
+    margin: 30px;
+ }
 .mainContent {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height: 550px;
+}
+.topContent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
 }
 .logoContainer{
     display: flex;
@@ -102,11 +130,61 @@ button {
     background-color: #103252;
     color: #EFF3F4;   
 }
+
+.activeGhostBlue {
+    color: #103252;
+}
+
+.homePageActiveGhost a {
+    color: #103252;
+    
+}
 .progressDots {
    width: 70px;
 }
-.centeredBodyCopy {
-    text-align: center;
-    font-weight: 100;
+/* footer styles */
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+    height: 80px;
+    width: 375px;
+    border-radius: 30px 30px 0px 0px ;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px -2px 4px #B1B1B1;
+}
+.icons {
+    width: 36px;
+}
+/* card styles */
+.cardContainer {
+display: flex;
+
+align-items: center;
+flex-direction: column;
+}
+
+.card {
+background-color: white;
+width: 95%;
+border-radius: 30px;
+box-shadow: 4px 4px 8px #B1B1B1;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-bottom: 20px;
+
+}
+
+.card p {
+    margin: 80px;
+    
+}
+li {
+    margin: 10px;
     color: #103252;
+}
+.bottomCard {
+    display: none;
 }
