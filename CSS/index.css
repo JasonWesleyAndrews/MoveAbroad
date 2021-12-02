@@ -1,0 +1,112 @@
+/* general styles */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px;
+    font-family: sans-serif;
+    background-color: #EFF3F4;  
+}
+a {
+    text-decoration: none;
+ }
+ a:visited {
+    color: #EFF3F4;
+ }
+ 
+ h2 {
+     color: #103252;
+     font-weight: 100;
+     font-size: 36px;
+     margin-top: 0px;
+     Margin-bottom: 10px;
+ }
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
+}
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.logo {
+    width: 90%; 
+}
+/* form styles */
+.formUnit{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;   
+}
+.userContent{
+    color:  #103252;
+}
+.formField {
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    padding-left: 10px;  
+}
+.formField p {
+    color: #CDCDCD;
+}
+.formFieldWcontent {
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    padding-left: 10px;
+}
+.formFieldWcontent p {
+    color: #103252;  
+}
+.formLabel {
+    width: 100%;
+    margin-left: 28px;  
+}
+.formLabel p {
+    color:  #103252;
+    margin-bottom: 2px; 
+    font-size: 12px;
+}
+/* button styles */
+button {
+    width: 180px;
+    height: 64px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #EFF3F4;
+    border-color: #103252;
+    font-size: 24px; 
+    box-shadow: 4px 4px 8px #B1B1B1;
+    border-style: solid;
+    border-width: 2px;
+    color: #103252;
+}
+.inactiveGhostBtn {
+    color: #CDCDCD;
+    border-color: #CDCDCD;
+    box-shadow: none;
+}
+.signInButton {
+    
+   
+}
+.signUpButton {
+    background-color: #103252;
+    color: #EFF3F4;   
+}
+.progressDots {
+   width: 70px;
+}
+.centeredBodyCopy {
+    text-align: center;
+    font-weight: 100;
+    color: #103252;
+}
