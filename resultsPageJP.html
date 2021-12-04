@@ -5,14 +5,14 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link href="css/index.css" rel="stylesheet" type="text/css">
    </head>  
-   <body>
+   <body id="resultsPage">
     
     <div class="topContent">
     <h2>Results for:</h2>
    </div>
 
      <!-- logo  -->
-     <section class="logoContainer">
+     <section>
      <img class="logo" src="images/Tokyo_japan_logo.png">
      </section>
     
@@ -36,7 +36,7 @@
             <ol>
               <li>Get a Passport.</li>
               <li>Apply for a Visa.</li>
-              <li>Submit certificate of eligibility.</li>
+              <li>Submit Certificate of Eligibility.</li>
               </ol>
         </div>
 
@@ -99,29 +99,28 @@
                                     <li>Top Expat Insurance</li>
                                     </ul>  
                                 </div>
-
-
-
-
     </section>
-
-     
-
- 
-
-    
   
  <!-- footer  -->
  <footer>
-    <div>
-        <img class="icons" src="images/profile icon.png">
+    <div class="iconContainer" onclick="history.back()">
+        <img class="icons" src="images/back_icon_white.png">
+        <h4>Back</h4>
     </div>
 
-
-    <div>
-        <img class="icons" src="images/searchIcon1.png">
+   <a href="profilePage.html">
+    <div class="iconContainer">
+        <img class="icons" src="images/profile_icon_white.png">
+        <h4>Profile</h4>
     </div>
-  
+   </a>
+
+   <a href="searchPage.html">
+    <div class="iconContainer">
+        <img class="icons" src="images/search_icon_white.png">
+        <h4>Search</h4>
+    </div>
+</a>
  </footer>
 
 </body>
