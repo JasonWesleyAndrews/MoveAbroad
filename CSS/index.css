@@ -41,15 +41,15 @@ a {
     color: #EFF3F4;
  }
  .profileHeading {
-     margin: 30px;
+     margin: 0px;
  }
 
  h2 {
      color: #103252;
      font-weight: 100;
      font-size: 36px;
-     margin-top: 0px;
-     Margin-bottom: 10px;
+     margin: 0px;
+     
  }
  h3 {
     color: #103252;
@@ -75,17 +75,41 @@ a {
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
+    margin-top: 10px;
+}
+.notch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+
+}
+.resultsNotch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    box-shadow: 0px 1px 4px #B1B1B1;
+    z-index: 100;
+    
 }
 .logoContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;
-    margin-bottom: 20px;
+    
+    
 }
 .logo {
-    width: 90%; 
+    width: 90%;
+    margin-top: 10px; 
 }
 /* form styles */
 .formsContainer{
@@ -115,7 +139,7 @@ a {
     padding-left: 10px;  
 }
 .formField p {
-    color: #CDCDCD;
+    color: #B2B2B2;
 }
 .formFieldWcontent {
     background-color: white; 
@@ -150,8 +174,8 @@ button {
     color: #103252;
 }
 .inactiveGhostBtn {
-    color: #CDCDCD;
-    border-color: #CDCDCD;
+    color: #B2B2B2;
+    border-color: #B2B2B2;
     box-shadow: none;
 }
 .signInButton {
@@ -256,5 +280,6 @@ li {
 .resultsPageContent {
     
     overflow: scroll;
+    
 }
 
