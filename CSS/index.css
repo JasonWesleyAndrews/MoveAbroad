@@ -6,16 +6,15 @@ body {
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
-
     width: 375px;
     height: 812px;
     font-family: sans-serif;
-    background-color: #EBF0F2; /* #EFF3F4 */
+    background-color: #EBF0F2;
     position: relative;
+    border-radius: 30px;
 }
 .heroContainer {
     width: 375px;
@@ -43,13 +42,11 @@ a {
  .profileHeading {
      margin: 0px;
  }
-
  h2 {
      color: #103252;
      font-weight: 100;
      font-size: 36px;
-     margin: 0px;
-     
+     margin: 0px;   
  }
  h3 {
     color: #103252;
@@ -68,8 +65,7 @@ a {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 490px;
-    
+    height: 490px;  
 }
 .topContent {
     display: flex;
@@ -84,8 +80,15 @@ a {
     width: 100%;
     padding: 0;
     margin: 0;
-    
-
+}
+.resultsCityContainer {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    flex-direction: column;   
+}
+.resultsCity{
+width: 95%;
 }
 .resultsNotch {
     display: flex;
@@ -97,15 +100,13 @@ a {
     background-color: white;
     box-shadow: 0px 1px 4px #B1B1B1;
     z-index: 100;
-    
+    border-radius: 30px 30px 0px 0px;  
 }
 .logoContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: center;   
 }
 .logo {
     width: 90%;
@@ -118,15 +119,13 @@ a {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
 .formUnit{
     width: 380px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    flex-direction: column;
-      
+    flex-direction: column;    
 }
 .userContent{
     color:  #103252;
@@ -134,8 +133,6 @@ a {
 .formField {
     background-color: white;
     width: 90%;
-    
-    
     padding-left: 10px;  
 }
 .formField p {
@@ -178,34 +175,24 @@ button {
     border-color: #B2B2B2;
     box-shadow: none;
 }
-.signInButton {
-    
-   
-}
 .signUpButton {
     background-color: #103252;
     color: #EFF3F4;   
 }
-
 .activeGhostBlue {
     color: #103252;
 }
-
 .homePageActiveGhost a {
-    color: #103252;
-    
+    color: #103252;    
 }
 .progressDots {
   position: absolute;
   bottom: 80px;
-   width: 50px;
-    
+   width: 50px;  
 }
 .buttonAbsoluteBottom {
   position: absolute;
   bottom: 110px;
-  
-
 }
 /* footer styles */
 footer {
@@ -215,11 +202,10 @@ footer {
     align-items: center;
     height: 80px;
     width: 375px;
-    border-radius: 30px 30px 0px 0px ;
+    border-radius: 0px 0px 30px 30px;
     position: absolute;
     bottom: 0;
-    box-shadow: 0px -2px 4px #B1B1B1;
-    
+    box-shadow: 0px -2px 4px #B1B1B1;   
 }
 .icons {
     width: 24px;
@@ -244,9 +230,7 @@ display: flex;
 align-items: center;
 flex-direction: column;
 align-items: center;
-
 }
-
 .card {
 background-color: white;
 width: 95%;
@@ -255,31 +239,24 @@ box-shadow: 4px 4px 8px #B1B1B1;
 margin-top: 10px;
 margin-bottom: 10px;
 padding-bottom: 20px;
-
 }
-
 .card p {
-    margin: 80px;
-    
+    margin: 80px;   
 }
 li {
     margin: 10px;
     color: #103252;
 }
-
-
-
 .bottomCard {
     margin-bottom: 100px;
 }
 /* results page */
 #resultsPage{
     height: 812px;
-    overflow: hidden;
+    overflow: hidden;   
 }
 .resultsPageContent {
-    
+    width: 375px;
     overflow: scroll;
-    
+    border-radius: 0px 0px 40px 40px; 
 }
-
